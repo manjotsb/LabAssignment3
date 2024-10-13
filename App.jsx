@@ -3,7 +3,7 @@ import { useState } from "react";
 import { View } from "react-native";
 import ToDoList from "./src/ToDoList";
 
-function App() {
+ export default function App() {
   const [tasks, setTasks] = useState([
     'Do Laundry',
     'Go to gym',
